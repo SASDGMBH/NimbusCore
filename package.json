@@ -1,0 +1,40 @@
+{
+  "name": "nimbuscore",
+  "version": "1.0.0",
+  "description": "**NimbusCore** is the foundation of the **NimbusStack** ecosystem, designed to provide a robust and scalable cloud framework for modern JavaScript applications. It offers essential services such as **service discovery**, **configuration management**, **circuit breakers**, and **distributed logging** to enhance resilience in cloud-native environments.",
+  "type": "module",
+  "main": "src/index.ts",
+  "directories": {
+    "doc": "docs",
+    "example": "examples",
+    "test": "tests"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon --experimental-json-modules src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SASDGMBH/NimbusCore.git"
+  },
+  "keywords": [],
+  "author": "Robin Goerlach <robin.goerlach@sasd.de> (https://sasd.de/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SASDGMBH/NimbusCore/issues"
+  },
+  "homepage": "https://github.com/SASDGMBH/NimbusCore#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "eslint": "^9.21.0",
+    "eslint-config-prettier": "^10.0.2",
+    "eslint-plugin-prettier": "^5.2.3",
+    "nodemon": "^3.1.9",
+    "prettier": "^3.5.2"
+  }
+}
